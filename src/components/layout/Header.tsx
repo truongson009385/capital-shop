@@ -27,7 +27,7 @@ function Header() {
   
 
   return (
-    <header className="shadow bg-white z-50">
+    <header className="shadow bg-white z-[99999]">
       <div className="header-top py-3 border-b-1 border-b-gray-300">
         <div className="container mx-auto flex justify-between items-center">
           <ul className="header-info-left flex items-center gap-3">
@@ -126,7 +126,7 @@ function Header() {
                 <a href="" className="menu-item">
                   Mega menu
                 </a>
-                <div className="grid grid-cols-4 gap-4 w-full absolute left-0 bg-black p-5 mt-20 opacity-0 invisible group-hover:mt-0 group-hover:opacity-100 group-hover:visible transition-all duration-200 ease-in">
+                <div className="z-10 grid grid-cols-4 gap-4 w-full absolute left-0 bg-black p-5 mt-20 opacity-0 invisible group-hover:mt-0 group-hover:opacity-100 group-hover:visible transition-all duration-200 ease-in">
                   <ul className="mega-item">
                     <li>
                       <a href="" className="mega-sub-title">

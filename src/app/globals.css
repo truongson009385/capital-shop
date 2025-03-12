@@ -132,7 +132,7 @@
     @apply font-medium;
   }
   .menu-sub {
-    @apply absolute left-0 top-10 bg-black shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:top-full transition-all duration-300 ease-in;
+    @apply absolute z-10 left-0 top-10 bg-black shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:top-full transition-all duration-300 ease-in;
   }
   .menu-sub-item {
     @apply text-white block py-2 px-4 hover:bg-white hover:text-black;

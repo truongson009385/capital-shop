@@ -2,17 +2,17 @@ import { Dribbble, Facebook, Github, Instagram, Twitter } from "lucide-react";
 
 function Footer() {
   return (
-    <footer className="bg-white">
+    <footer className="bg-gray-950">
       <div className="mx-auto container px-4 py-16 sm:px-6 lg:px-0">
         <div className="lg:flex lg:items-start lg:gap-8">
           <div className="mt-8 grid grid-cols-2 gap-8 lg:mt-0 lg:grid-cols-5 lg:gap-y-16">
             <div className="col-span-2">
               <div>
-                <h2 className="text-2xl font-bold text-gray-900">
+                <h2 className="text-2xl font-bold text-white">
                   Get the latest news!
                 </h2>
 
-                <p className="mt-4 text-gray-500">
+                <p className="mt-4 text-gray-400">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse
                   non cupiditate quae nam molestias.
                 </p>
@@ -31,10 +31,10 @@ function Footer() {
                     type="email"
                     id="UserEmail"
                     placeholder="john@rhcp.com"
-                    className="w-full border-none focus:border-transparent focus:ring-transparent sm:text-sm"
+                    className="w-full px-4 py-2 text-white outline-0 border-0 focus:border-transparent focus:ring-transparent sm:text-sm"
                   />
 
-                  <button className="mt-1 w-full bg-gray-950 px-6 py-3 text-sm font-bold tracking-wide text-white uppercase transition-none hover:bg-gray-600 sm:mt-0 sm:w-auto sm:shrink-0">
+                  <button type="button" className="mt-1 w-full bg-white px-6 py-3 text-sm font-bold tracking-wide text-black uppercase transition-none hover:bg-yellow-400 sm:mt-0 sm:w-auto sm:shrink-0">
                     Sign Up
                   </button>
                 </div>
@@ -42,13 +42,13 @@ function Footer() {
             </div>
 
             <div className="col-span-2 sm:col-span-1">
-              <p className="font-medium text-gray-900">Services</p>
+              <p className="font-medium text-white">Services</p>
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75"
+                    className="text-gray-400 transition hover:opacity-75"
                   >
                     {" "}
                     1on1 Coaching{" "}
@@ -58,7 +58,7 @@ function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75"
+                    className="text-gray-400 transition hover:opacity-75"
                   >
                     {" "}
                     Company Review{" "}
@@ -68,7 +68,7 @@ function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75"
+                    className="text-gray-400 transition hover:opacity-75"
                   >
                     {" "}
                     Accounts Review{" "}
@@ -78,7 +78,7 @@ function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75"
+                    className="text-gray-400 transition hover:opacity-75"
                   >
                     {" "}
                     HR Consulting{" "}
@@ -88,7 +88,7 @@ function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75"
+                    className="text-gray-400 transition hover:opacity-75"
                   >
                     {" "}
                     SEO Optimisation{" "}
@@ -98,13 +98,13 @@ function Footer() {
             </div>
 
             <div className="col-span-2 sm:col-span-1">
-              <p className="font-medium text-gray-900">Company</p>
+              <p className="font-medium text-white">Company</p>
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75"
+                    className="text-gray-400 transition hover:opacity-75"
                   >
                     {" "}
                     About{" "}
@@ -114,7 +114,7 @@ function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75"
+                    className="text-gray-400 transition hover:opacity-75"
                   >
                     {" "}
                     Meet the Team{" "}
@@ -124,7 +124,7 @@ function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75"
+                    className="text-gray-400 transition hover:opacity-75"
                   >
                     {" "}
                     Accounts Review{" "}
@@ -134,13 +134,13 @@ function Footer() {
             </div>
 
             <div className="col-span-2 sm:col-span-1">
-              <p className="font-medium text-gray-900">Helpful Links</p>
+              <p className="font-medium text-white">Helpful Links</p>
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75"
+                    className="text-gray-400 transition hover:opacity-75"
                   >
                     {" "}
                     Contact{" "}
@@ -150,7 +150,7 @@ function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75"
+                    className="text-gray-400 transition hover:opacity-75"
                   >
                     {" "}
                     FAQs{" "}
@@ -160,7 +160,7 @@ function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75"
+                    className="text-gray-400 transition hover:opacity-75"
                   >
                     {" "}
                     Live Chat{" "}
@@ -170,13 +170,13 @@ function Footer() {
             </div>
 
             <div className="col-span-2 sm:col-span-1">
-              <p className="font-medium text-gray-900">Legal</p>
+              <p className="font-medium text-white">Legal</p>
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75"
+                    className="text-gray-400 transition hover:opacity-75"
                   >
                     {" "}
                     Accessibility{" "}
@@ -186,7 +186,7 @@ function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75"
+                    className="text-gray-400 transition hover:opacity-75"
                   >
                     {" "}
                     Returns Policy{" "}
@@ -196,7 +196,7 @@ function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75"
+                    className="text-gray-400 transition hover:opacity-75"
                   >
                     {" "}
                     Refund Policy{" "}
@@ -206,7 +206,7 @@ function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75"
+                    className="text-gray-400 transition hover:opacity-75"
                   >
                     Hiring-3 Statistics
                   </a>
@@ -215,13 +215,13 @@ function Footer() {
             </div>
 
             <div className="col-span-2 sm:col-span-1">
-              <p className="font-medium text-gray-900">Downloads</p>
+              <p className="font-medium text-white">Downloads</p>
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75"
+                    className="text-gray-400 transition hover:opacity-75"
                   >
                     {" "}
                     Marketing Calendar{" "}
@@ -231,7 +231,7 @@ function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75"
+                    className="text-gray-400 transition hover:opacity-75"
                   >
                     {" "}
                     SEO Infographics{" "}
@@ -246,7 +246,7 @@ function Footer() {
                   href="#"
                   rel="noreferrer"
                   target="_blank"
-                  className="text-gray-700 transition hover:opacity-75"
+                  className="text-gray-400 transition hover:opacity-75"
                 >
                   <span className="sr-only">Facebook</span>
 
@@ -259,7 +259,7 @@ function Footer() {
                   href="#"
                   rel="noreferrer"
                   target="_blank"
-                  className="text-gray-700 transition hover:opacity-75"
+                  className="text-gray-400 transition hover:opacity-75"
                 >
                   <span className="sr-only">Instagram</span>
 
@@ -272,7 +272,7 @@ function Footer() {
                   href="#"
                   rel="noreferrer"
                   target="_blank"
-                  className="text-gray-700 transition hover:opacity-75"
+                  className="text-gray-400 transition hover:opacity-75"
                 >
                   <span className="sr-only">Twitter</span>
 
@@ -285,7 +285,7 @@ function Footer() {
                   href="#"
                   rel="noreferrer"
                   target="_blank"
-                  className="text-gray-700 transition hover:opacity-75"
+                  className="text-gray-400 transition hover:opacity-75"
                 >
                   <span className="sr-only">GitHub</span>
 
@@ -298,7 +298,7 @@ function Footer() {
                   href="#"
                   rel="noreferrer"
                   target="_blank"
-                  className="text-gray-700 transition hover:opacity-75"
+                  className="text-gray-400 transition hover:opacity-75"
                 >
                   <span className="sr-only">Dribbble</span>
 
